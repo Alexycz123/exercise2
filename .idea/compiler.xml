@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="elasticSearchSpringboot" />
+        <module name="data" />
+        <module name="jwt-springboot" />
+        <module name="mypoi" />
+        <module name="mybatis" />
+        <module name="jwt-study" />
+        <module name="demo" />
+        <module name="redis" />
+        <module name="shardingsphere" />
+        <module name="ex" />
+        <module name="elasticSearch" />
+        <module name="shardingsphere2" />
+        <module name="juc" />
+        <module name="cnlmStudy" />
+        <module name="initClass" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cnlmStudy" target="8" />
+      <module name="data" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="elasticSearch" target="8" />
+      <module name="elasticSearchSpringboot" target="1.8" />
+      <module name="ex" target="8" />
+      <module name="initClass" target="8" />
+      <module name="juc" target="8" />
+      <module name="jwt-springboot" target="1.8" />
+      <module name="jwt-study" target="8" />
+      <module name="mybatis" target="1.8" />
+      <module name="mypoi" target="1.8" />
+      <module name="redis" target="1.8" />
+      <module name="shardingsphere" target="1.8" />
+      <module name="shardingsphere2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="data" options="-parameters" />
+      <module name="jwt-springboot" options="-parameters" />
+      <module name="shardingsphere" options="-parameters" />
+    </option>
+  </component>
+</project>

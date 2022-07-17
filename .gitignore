@@ -1,0 +1,8 @@
+# Project exclude paths
+/cnlmStudy/target/
+/elasticSearch/target/
+/ex/target/
+/initClass/target/
+/juc/target/
+/jwt-study/target/
+/out/

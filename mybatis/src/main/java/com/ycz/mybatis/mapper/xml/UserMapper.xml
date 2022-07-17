@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ycz.mybatis.mapper.UserMapper">
+
+    <insert id="insert2" parameterType="com.ycz.mybatis.entity.User">
+        insert into ${tableName} (`name` , pwd,gender,qq,age,address,email,deleted)
+        values(#{user.name},#{user.pwd} , #{user.gender} ,
+               #{user.qq} ,#{user.age} , #{user.address} , #{user.email} , #{user.deleted} )
+    </insert>
+
+    <select id="selectUser" resultType="com.ycz.mybatis.entity.User">
+        select * from  ${tableName} order by ${orderByTemp}
+    </select>
+
+</mapper>
